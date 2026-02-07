@@ -142,3 +142,5 @@ const BankInfoModal = ({
     </Modal>
   );
 };
+
+export default BankInfoModal;

@@ -4,11 +4,11 @@ import Button from "@/app/(landing)/components/ui/button";
 import { FiPlus } from "react-icons/fi";
 import { useEffect, useState } from "react";
 import BankInfoList from "../../components/bank-info/bank-info-list";
-import BankInfoModal from "../../components/bank-info/bank-info-modal";
 import { Bank } from "@/app/types";
 import { deleteBank, getAllBanks } from "@/app/services/bank.service";
 import { toast } from "react-toastify";
 import DeleteModal from "../../components/ui/delete-modal";
+import BankInfoModal from "../../components/bank-info/bank-info-modal";
 
 const BankInfoManagement = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
